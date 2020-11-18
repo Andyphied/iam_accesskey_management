@@ -17,7 +17,7 @@ def cli():
               '--username',
               '-u',
               default='none',
-              help='check a user or all users')
+              help='check a user or all users default(all users)')
 @click.option('age',
               '--age',
               '-a',
